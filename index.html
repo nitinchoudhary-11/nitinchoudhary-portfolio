@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nitin Choudhary | Software Engineer & Java Backend Developer</title>
+  <meta name="description" content="Portfolio of Nitin Choudhary, Java Backend Developer with internship experience specializing in Java 17, Spring Boot, Spring Security, REST APIs, Spring Data JPA, Hibernate, PostgreSQL, MySQL, Git, and Maven.">
+  <meta name="keywords" content="Nitin Choudhary, Java Developer, Spring Boot Developer, Java Backend Engineer, Spring Security, REST API, MySQL, PostgreSQL, Hibernate, Git, Maven">
+  <meta name="author" content="Nitin Choudhary">
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:title" content="Nitin Choudhary | Java Backend Developer Portfolio">
+  <meta property="og:description" content="Java Backend Developer with 6 months internship experience building RESTful services, Spring Security JWT authentication, Spring Data JPA, and MySQL applications.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts: Inter, Outfit & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:ital,wght@0,400;0,500;0,700;1,400&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome Icons for Rich Visuals -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="dark-theme">
+
+  <!-- Background Animated Mesh Gradient & Particle Grid -->
+  <div class="bg-glow-container">
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+    <div class="glow-orb orb-3"></div>
+    <div class="grid-overlay"></div>
+  </div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-icon">&lt;/&gt;</span>
+        <span class="logo-text">Nitin<span class="highlight">.Java</span></span>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#hero" class="nav-link active"><i class="fa-solid fa-house"></i> Home</a>
+        <a href="#about" class="nav-link"><i class="fa-solid fa-user"></i> About</a>
+        <a href="#skills" class="nav-link"><i class="fa-solid fa-code"></i> Skills</a>
+        <a href="#architecture" class="nav-link"><i class="fa-solid fa-network-wired"></i> Architecture</a>
+        <a href="#experience" class="nav-link"><i class="fa-solid fa-briefcase"></i> Experience</a>
+        <a href="#projects" class="nav-link"><i class="fa-solid fa-diagram-project"></i> Projects</a>
+        <a href="#education" class="nav-link"><i class="fa-solid fa-graduation-cap"></i> Education</a>
+        <a href="#contact" class="nav-link"><i class="fa-solid fa-paper-plane"></i> Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="btn btn-outline-sm recruiter-btn" id="recruiterSummaryBtn">
+          <i class="fa-solid fa-id-card"></i> Recruiter Snapshot
+        </button>
+        <a href="#contact" class="btn btn-primary-sm">Hire Me</a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Container -->
+  <main>
+
+    <!-- SECTION 1: HERO SECTION -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="status-badge" data-aos="fade-down">
+            <span class="pulse-dot"></span>
+            <span>Available for Java Backend Developer Roles • Indore, MP</span>
+          </div>
+
+          <h1 class="hero-title" data-aos="fade-up">
+            Building Secure <br>
+            <span class="gradient-text">Java 17 & Spring Boot</span> <br>
+            Backend Applications
+          </h1>
+
+          <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="100">
+            Hi, I'm <strong>Nitin Choudhary</strong> — a passionate Software Engineer and Java Backend Developer with 6 months internship experience building RESTful services, secure JWT authentication, and relational database systems using
+            <span class="tech-highlight">Java 17</span>, <span class="tech-highlight">Spring Boot</span>, 
+            <span class="tech-highlight">Spring Security</span>, <span class="tech-highlight">MySQL & PostgreSQL</span>, 
+            and <span class="tech-highlight">Hibernate JPA</span>.
+          </p>
+
+          <div class="tech-pills" data-aos="fade-up" data-aos-delay="200">
+            <span class="pill"><i class="fa-brands fa-java"></i> Java 17</span>
+            <span class="pill"><i class="fa-solid fa-leaf"></i> Spring Boot</span>
+            <span class="pill"><i class="fa-solid fa-shield-halved"></i> Spring Security</span>
+            <span class="pill"><i class="fa-solid fa-gears"></i> REST APIs</span>
+            <span class="pill"><i class="fa-solid fa-database"></i> MySQL & PostgreSQL</span>
+            <span class="pill"><i class="fa-solid fa-cubes"></i> Hibernate JPA</span>
+            <span class="pill"><i class="fa-brands fa-git-alt"></i> Git</span>
+            <span class="pill"><i class="fa-solid fa-feather-pointed"></i> Maven</span>
+          </div>
+
+          <div class="hero-cta" data-aos="fade-up" data-aos-delay="300">
+            <a href="#projects" class="btn btn-primary btn-lg">
+              <i class="fa-solid fa-rocket"></i> View Projects
+            </a>
+            <button class="btn btn-glass btn-lg" id="openApiPlaygroundBtn">
+              <i class="fa-solid fa-terminal"></i> Try API Tester
+            </button>
+            <a href="#contact" class="btn btn-outline btn-lg">
+              <i class="fa-solid fa-envelope"></i> Get In Touch
+            </a>
+          </div>
+
+          <!-- Quick Metrics Bar -->
+          <div class="hero-metrics" data-aos="fade-up" data-aos-delay="400">
+            <div class="metric-item">
+              <span class="metric-number" data-target="6">6 Months</span>
+              <span class="metric-label">Internship Exp.</span>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric-item">
+              <span class="metric-number" data-target="100">100+</span>
+              <span class="metric-label">LeetCode Solved</span>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric-item">
+              <span class="metric-number" data-target="6.5">6.5</span>
+              <span class="metric-label">B.Tech CGPA</span>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric-item">
+              <span class="metric-number">100%</span>
+              <span class="metric-label">Clean OOD Focus</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual" data-aos="zoom-in" data-aos-delay="200">
+          <div class="profile-card-wrapper">
+            <div class="profile-card-border"></div>
+            <div class="profile-card">
+              <div class="avatar-container">
+                <img src="assets/profile.jpg" alt="Nitin Choudhary - Java Backend Developer" class="avatar-img" id="profileImage">
+                <div class="tech-badge java-badge" title="Java 17 Core"><i class="fa-brands fa-java"></i></div>
+                <div class="tech-badge spring-badge" title="Spring Boot & Security"><i class="fa-solid fa-leaf"></i></div>
+                <div class="tech-badge db-badge" title="Relational DBs (MySQL/PostgreSQL)"><i class="fa-solid fa-database"></i></div>
+              </div>
+
+              <div class="profile-details">
+                <h3 class="profile-name">Nitin Choudhary</h3>
+                <p class="profile-role">Software Engineer | Java Backend Developer</p>
+                <div class="location-tag"><i class="fa-solid fa-location-dot"></i> Indore, Madhya Pradesh, India</div>
+                
+                <div class="profile-status-grid">
+                  <div class="status-box">
+                    <span class="box-label">Primary Stack</span>
+                    <span class="box-val">Java 17 + Spring Boot</span>
+                  </div>
+                  <div class="status-box">
+                    <span class="box-label">Database</span>
+                    <span class="box-val">MySQL / PostgreSQL</span>
+                  </div>
+                </div>
+
+                <div class="social-links-row">
+                  <a href="https://github.com/nitinchoudhary-11" target="_blank" rel="noopener" class="social-icon" title="GitHub Profile">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                  <a href="https://linkedin.com/in/nitin-c-80a97a249" target="_blank" rel="noopener" class="social-icon" title="LinkedIn Profile">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                  <a href="mailto:nitinchoudhary7415@gmail.com" class="social-icon" title="Email Nitin">
+                    <i class="fa-solid fa-envelope"></i>
+                  </a>
+                  <a href="tel:7415416193" class="social-icon" title="Call Nitin (7415416193)">
+                    <i class="fa-solid fa-phone"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: ABOUT ME SECTION -->
+    <section id="about" class="section about-section">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-subtitle">PROFESSIONAL SUMMARY</span>
+          <h2 class="section-title">About <span class="gradient-text">Nitin Choudhary</span></h2>
+          <div class="section-bar"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text-col" data-aos="fade-right">
+            <h3 class="about-heading">Java Backend Developer with Internship Experience</h3>
+            <p class="about-paragraph">
+              I am a <strong>Java Backend Developer</strong> with 6 months internship experience building Java 17 and Spring Boot backend applications. Hands-on experience developing <strong>RESTful services, Spring Security, JWT authentication, Refresh Token, BCrypt password encryption, RBAC, Spring Data JPA, MySQL, and Git-based development</strong>.
+            </p>
+            <p class="about-paragraph">
+              I have a strong foundation in <strong>Object-Oriented Design, API Design, Data Structures & Algorithms, SQL, Collections Framework, Exception Handling, and backend development</strong>. Passionate about writing clean, maintainable code following layered MVC Controller–Service–Repository architecture, dependency injection, and normalized database design.
+            </p>
+
+            <div class="highlights-grid">
+              <div class="highlight-item">
+                <div class="highlight-icon"><i class="fa-solid fa-shield-cat"></i></div>
+                <div class="highlight-content">
+                  <h4>Backend Security</h4>
+                  <p>Authentication, Authorization, JWT, Refresh Token, BCrypt encryption & RBAC.</p>
+                </div>
+              </div>
+
+              <div class="highlight-item">
+                <div class="highlight-icon"><i class="fa-solid fa-database"></i></div>
+                <div class="highlight-content">
+                  <h4>Database & Persistence</h4>
+                  <p>MySQL, PostgreSQL, Database Normalization (3NF) & Spring Data JPA / Hibernate.</p>
+                </div>
+              </div>
+
+              <div class="highlight-item">
+                <div class="highlight-icon"><i class="fa-solid fa-sitemap"></i></div>
+                <div class="highlight-content">
+                  <h4>Layered Architecture</h4>
+                  <p>Controller–Service–Repository, Dependency Injection, IoC, and RESTful APIs.</p>
+                </div>
+              </div>
+
+              <div class="highlight-item">
+                <div class="highlight-icon"><i class="fa-solid fa-brain"></i></div>
+                <div class="highlight-content">
+                  <h4>Problem Solving</h4>
+                  <p>100+ LeetCode problems solved in Java focusing on Data Structures & Algorithms.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-actions">
+              <button class="btn btn-primary" id="downloadResumeBtn">
+                <i class="fa-solid fa-file-pdf"></i> Download Resume (PDF)
+              </button>
+              <a href="https://github.com/nitinchoudhary-11" target="_blank" rel="noopener" class="btn btn-glass">
+                <i class="fa-brands fa-github"></i> View GitHub Repos
+              </a>
+            </div>
+          </div>
+
+          <div class="about-card-col" data-aos="fade-left">
+            <div class="code-window">
+              <div class="code-window-header">
+                <div class="window-buttons">
+                  <span class="btn-dot close"></span>
+                  <span class="btn-dot minimize"></span>
+                  <span class="btn-dot maximize"></span>
+                </div>
+                <div class="window-title"><i class="fa-brands fa-java"></i> DeveloperInfo.java</div>
+              </div>
+              <div class="code-window-body">
+                <pre><code><span class="kwd">package</span> <span class="str">com.nitinchoudhary.portfolio</span>;
+
+<span class="annotation">@RestController</span>
+<span class="annotation">@RequestMapping</span>(<span class="str">"/api/v1/developer"</span>)
+<span class="kwd">public class</span> <span class="cls">NitinChoudharyController</span> {
+
+    <span class="annotation">@GetMapping</span>(<span class="str">"/summary"</span>)
+    <span class="kwd">public</span> ResponseEntity&lt;DeveloperDTO&gt; <span class="func">getProfileSummary</span>() {
+        DeveloperDTO nitin = DeveloperDTO.builder()
+            .name(<span class="str">"Nitin Choudhary"</span>)
+            .role(<span class="str">"Software Engineer | Java Backend Developer"</span>)
+            .internship(<span class="str">"Dollop Infotech, Indore (6 Months)"</span>)
+            .languages(List.of(<span class="str">"Java 17"</span>, <span class="str">"SQL"</span>))
+            .frameworks(List.of(<span class="str">"Spring Boot"</span>, <span class="str">"Spring Security"</span>, <span class="str">"Spring Data JPA"</span>))
+            .databases(List.of(<span class="str">"MySQL"</span>, <span class="str">"PostgreSQL"</span>))
+            .tools(List.of(<span class="str">"Git"</span>, <span class="str">"Maven"</span>, <span class="str">"Postman"</span>, <span class="str">"JUnit"</span>))
+            .leetCodeSolved(<span class="str">"100+ Problems"</span>)
+            .build();
+            
+        <span class="kwd">return</span> ResponseEntity.ok(nitin);
+    }
+}</code></pre>
+              </div>
+            </div>
+
+            <!-- Recruiter Quick Summary Card -->
+            <div class="recruiter-quick-card">
+              <div class="quick-card-header">
+                <i class="fa-solid fa-briefcase"></i> Recruiter Quick Summary
+              </div>
+              <ul class="quick-info-list">
+                <li><i class="fa-solid fa-check-circle"></i> <strong>Title:</strong> Software Engineer | Java Backend Developer</li>
+                <li><i class="fa-solid fa-check-circle"></i> <strong>Experience:</strong> Java Developer Intern (Dollop Infotech, Indore | Mar 2026 – Present)</li>
+                <li><i class="fa-solid fa-check-circle"></i> <strong>Core Tech:</strong> Java 17, Spring Boot, Spring Security, REST APIs, Hibernate JPA, MySQL, Git, Maven</li>
+                <li><i class="fa-solid fa-check-circle"></i> <strong>Education:</strong> B.Tech (IT) | Sushila Devi Bansal College of Technology, Indore (CGPA: 6.5)</li>
+                <li><i class="fa-solid fa-check-circle"></i> <strong>Problem Solving:</strong> 100+ LeetCode Problems Solved in Java</li>
+                <li><i class="fa-solid fa-check-circle"></i> <strong>Direct Contact:</strong> Email & WhatsApp (+91 7415416193)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: SKILLS & TECHNICAL STACK SECTION -->
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <div class="section-header text-center" data-aos="fade-up">
+          <span class="section-subtitle">TECHNICAL EXPERTISE</span>
+          <h2 class="section-title">Backend <span class="gradient-text">Skill Matrix</span></h2>
+          <p class="section-desc">Comprehensive breakdown of core competencies, tools, and technical proficiency.</p>
+          <div class="section-bar"></div>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="skills-filter-container" data-aos="fade-up">
+          <button class="filter-tab active" data-filter="all"><i class="fa-solid fa-border-all"></i> All Skills</button>
+          <button class="filter-tab" data-filter="core"><i class="fa-brands fa-java"></i> Java & Core</button>
+          <button class="filter-tab" data-filter="frameworks"><i class="fa-solid fa-leaf"></i> Spring Ecosystem</button>
+          <button class="filter-tab" data-filter="database"><i class="fa-solid fa-database"></i> Databases & ORM</button>
+          <button class="filter-tab" data-filter="tools"><i class="fa-solid fa-screwdriver-wrench"></i> Build & DevOps</button>
+        </div>
+
+        <!-- Skills Grid -->
+        <div class="skills-grid" id="skillsGrid">
+          <!-- Dynamically populated via js/data.js -->
+        </div>
+
+        <!-- Interactive Tech Stack Spotlight -->
+        <div class="tech-spotlight-box" data-aos="fade-up">
+          <div class="spotlight-header">
+            <h3><i class="fa-solid fa-bolt"></i> Enterprise Backend Competency Checklist</h3>
+            <p>Highlights required by Engineering Managers & Tech Recruiters</p>
+          </div>
+          <div class="spotlight-grid">
+            <div class="spotlight-card">
+              <div class="spotlight-icon"><i class="fa-brands fa-java"></i></div>
+              <h4>Core Java & JVM</h4>
+              <ul>
+                <li>Java 8 / 11 / 17 / 21 Features</li>
+                <li>Multithreading & Concurrency</li>
+                <li>Streams API & Functional Programming</li>
+                <li>JVM Memory Tuning & GC Analysis</li>
+              </ul>
+            </div>
+
+            <div class="spotlight-card">
+              <div class="spotlight-icon"><i class="fa-solid fa-leaf"></i></div>
+              <h4>Spring & Security</h4>
+              <ul>
+                <li>Spring Boot 3 Web & REST</li>
+                <li>Spring Security JWT & OAuth2</li>
+                <li>Spring Data JPA & Hibernate</li>
+                <li>Global Exception Handling & AOP</li>
+              </ul>
+            </div>
+
+            <div class="spotlight-card">
+              <div class="spotlight-icon"><i class="fa-solid fa-database"></i></div>
+              <h4>Databases & Persistence</h4>
+              <ul>
+                <li>PostgreSQL & MySQL Schema Design</li>
+                <li>Complex SQL Joins & Index Tuning</li>
+                <li>Transaction Management (@Transactional)</li>
+                <li>Redis Caching & Session Storage</li>
+              </ul>
+            </div>
+
+            <div class="spotlight-card">
+              <div class="spotlight-icon"><i class="fa-solid fa-code-branch"></i></div>
+              <h4>Tools & Architecture</h4>
+              <ul>
+                <li>Gitflow & Branching Strategies</li>
+                <li>Maven Dependencies & Plugins</li>
+                <li>Docker Containerization</li>
+                <li>Swagger / OpenAPI Documentation</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: INTERACTIVE ARCHITECTURE & API PLAYGROUND -->
+    <section id="architecture" class="section architecture-section">
+      <div class="container">
+        <div class="section-header text-center" data-aos="fade-up">
+          <span class="section-subtitle">INTERACTIVE SHOWCASE</span>
+          <h2 class="section-title">Backend Architecture & <span class="gradient-text">Live REST API Tester</span></h2>
+          <p class="section-desc">Experience real Spring Boot microservice workflow & test mock API endpoints directly.</p>
+          <div class="section-bar"></div>
+        </div>
+
+        <div class="arch-toggle-tabs" data-aos="fade-up">
+          <button class="arch-tab active" id="showArchDiagramTab">
+            <i class="fa-solid fa-network-wired"></i> Microservice Flow Diagram
+          </button>
+          <button class="arch-tab" id="showApiConsoleTab">
+            <i class="fa-solid fa-terminal"></i> Live REST API Playground
+          </button>
+        </div>
+
+        <!-- Diagram View -->
+        <div class="arch-content-container" id="archDiagramView" data-aos="fade-up">
+          <div class="architecture-visualizer">
+            <div class="arch-controls">
+              <span class="arch-title"><i class="fa-solid fa-sitemap"></i> Spring Boot Distributed Microservices Architecture</span>
+              <button class="btn btn-outline-sm" id="triggerPulseBtn"><i class="fa-solid fa-play"></i> Simulate Traffic</button>
+            </div>
+
+            <div class="arch-nodes-wrapper">
+              <!-- Client Node -->
+              <div class="arch-node node-client" id="nodeClient">
+                <div class="node-icon"><i class="fa-solid fa-desktop"></i></div>
+                <div class="node-label">Client App / Web</div>
+                <div class="node-sub">React / Mobile</div>
+              </div>
+
+              <div class="arch-connector connector-1">
+                <span class="pulse-line"></span>
+                <span class="flow-tag">HTTPS REST</span>
+              </div>
+
+              <!-- API Gateway Node -->
+              <div class="arch-node node-gateway" id="nodeGateway">
+                <div class="node-icon"><i class="fa-solid fa-route"></i></div>
+                <div class="node-label">Spring Cloud Gateway</div>
+                <div class="node-sub">Rate Limiting & CORS</div>
+              </div>
+
+              <div class="arch-connector connector-2">
+                <span class="pulse-line"></span>
+                <span class="flow-tag">JWT Auth</span>
+              </div>
+
+              <!-- Security & Auth Service -->
+              <div class="arch-node node-security" id="nodeSecurity">
+                <div class="node-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                <div class="node-label">Spring Security Auth Service</div>
+                <div class="node-sub">OAuth2 / JWT Token</div>
+              </div>
+
+              <div class="arch-connector connector-3">
+                <span class="pulse-line"></span>
+                <span class="flow-tag">Internal API</span>
+              </div>
+
+              <!-- Business Microservice Node -->
+              <div class="arch-node node-backend" id="nodeBackend">
+                <div class="node-icon"><i class="fa-solid fa-leaf"></i></div>
+                <div class="node-label">Spring Boot Service</div>
+                <div class="node-sub">Hibernate JPA Logic</div>
+              </div>
+
+              <div class="arch-connector connector-4">
+                <span class="pulse-line"></span>
+                <span class="flow-tag">JDBC / SQL</span>
+              </div>
+
+              <!-- Database & Cache Nodes -->
+              <div class="arch-db-cluster">
+                <div class="arch-node node-db" id="nodePostgres">
+                  <div class="node-icon"><i class="fa-solid fa-database"></i></div>
+                  <div class="node-label">PostgreSQL / MySQL</div>
+                  <div class="node-sub">Primary Data Store</div>
+                </div>
+                <div class="arch-node node-redis" id="nodeRedis">
+                  <div class="node-icon"><i class="fa-solid fa-bolt"></i></div>
+                  <div class="node-label">Redis Cache</div>
+                  <div class="node-sub">Sub-ms Session/Cache</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="arch-info-footer">
+              <div class="info-pill"><i class="fa-solid fa-lock"></i> Secured with Spring Security & Role-Based Access Control (RBAC)</div>
+              <div class="info-pill"><i class="fa-solid fa-feather-pointed"></i> Built using Maven & Clean Architecture</div>
+              <div class="info-pill"><i class="fa-solid fa-database"></i> ORM Persistence with Hibernate JPA</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- API Playground Console View -->
+        <div class="arch-content-container hidden" id="apiConsoleView">
+          <div class="api-playground-box">
+            <div class="console-header">
+              <span class="console-title"><i class="fa-solid fa-terminal"></i> Spring Boot REST Controller Tester (Simulated Environment)</span>
+              <span class="server-status"><span class="green-dot"></span> Server: http://localhost:8080/api/v1 (ACTIVE)</span>
+            </div>
+
+            <div class="console-body">
+              <div class="request-bar">
+                <select id="apiMethodSelect" class="api-select method-select">
+                  <option value="GET">GET</option>
+                  <option value="POST">POST</option>
+                  <option value="PUT">PUT</option>
+                </select>
+
+                <select id="apiEndpointSelect" class="api-select endpoint-select">
+                  <option value="/api/v1/developer/skills">/api/v1/developer/skills (Fetch Skill Matrix)</option>
+                  <option value="/api/v1/projects/featured">/api/v1/projects/featured (Fetch Top Projects)</option>
+                  <option value="/api/v1/auth/authenticate">/api/v1/auth/authenticate (Simulate Spring Security JWT Auth)</option>
+                  <option value="/api/v1/database/health">/api/v1/database/health (PostgreSQL Connection Pool Status)</option>
+                </select>
+
+                <button class="btn btn-primary" id="sendApiRequestBtn">
+                  <i class="fa-solid fa-paper-plane"></i> Execute Request
+                </button>
+              </div>
+
+              <div class="response-panel">
+                <div class="panel-header">
+                  <span class="panel-tab active">Response Headers & Body</span>
+                  <span class="response-meta" id="responseMeta">Status: <strong class="text-success">200 OK</strong> | Time: <strong>42 ms</strong> | DB Query Time: <strong>8 ms</strong></span>
+                </div>
+                <div class="panel-code">
+                  <pre id="apiResponseBody"><code>// Click "Execute Request" above to test the REST API endpoint...</code></pre>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: WORK EXPERIENCE SECTION -->
+    <section id="experience" class="section experience-section">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-subtitle">CAREER JOURNEY</span>
+          <h2 class="section-title">Work <span class="gradient-text">Experience</span></h2>
+          <div class="section-bar"></div>
+        </div>
+
+        <div class="timeline" id="experienceTimeline">
+          <!-- Dynamically populated via js/data.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: PROJECTS SECTION -->
+    <section id="projects" class="section projects-section">
+      <div class="container">
+        <div class="section-header text-center" data-aos="fade-up">
+          <span class="section-subtitle">PORTFOLIO SHOWCASE</span>
+          <h2 class="section-title">Featured <span class="gradient-text">Backend Projects</span></h2>
+          <p class="section-desc">Production-ready applications demonstrating Spring Boot, Security, REST APIs, and Databases.</p>
+          <div class="section-bar"></div>
+        </div>
+
+        <!-- Project Filter Buttons -->
+        <div class="project-filter-container" data-aos="fade-up">
+          <button class="proj-tab active" data-projfilter="all">All Projects</button>
+          <button class="proj-tab" data-projfilter="spring">Spring Boot & Security</button>
+          <button class="proj-tab" data-projfilter="microservices">Microservices</button>
+          <button class="proj-tab" data-projfilter="database">PostgreSQL & Hibernate</button>
+        </div>
+
+        <div class="projects-grid" id="projectsGrid">
+          <!-- Dynamically populated via js/data.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 7: EDUCATION & PROBLEM SOLVING -->
+    <section id="education" class="section education-section">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <span class="section-subtitle">ACADEMIC & PROBLEM SOLVING</span>
+          <h2 class="section-title">Education & <span class="gradient-text">Problem Solving</span></h2>
+          <div class="section-bar"></div>
+        </div>
+
+        <div class="edu-grid">
+          <div class="edu-col" data-aos="fade-right">
+            <h3 class="edu-heading"><i class="fa-solid fa-graduation-cap"></i> Formal Education</h3>
+            
+            <div class="edu-card">
+              <div class="edu-icon"><i class="fa-solid fa-university"></i></div>
+              <div class="edu-details">
+                <span class="edu-date">Aug 2022 – Jun 2026</span>
+                <h4>B.Tech in Information Technology</h4>
+                <p class="edu-institution">Sushila Devi Bansal College of Technology, Indore</p>
+                <p class="edu-desc">Core Focus: Java Development, Data Structures & Algorithms, Object-Oriented Design, Relational Database Management Systems (MySQL/PostgreSQL).</p>
+                <div class="edu-badge"><i class="fa-solid fa-star"></i> CGPA: 6.5</div>
+              </div>
+            </div>
+
+            <div class="edu-card" style="margin-top: 15px;">
+              <div class="edu-icon"><i class="fa-solid fa-school"></i></div>
+              <div class="edu-details">
+                <span class="edu-date">2022</span>
+                <h4>Class XII (Higher Secondary Education)</h4>
+                <p class="edu-institution">Govt. B.H.S. School, Bhourasa (Dewas)</p>
+                <div class="edu-badge"><i class="fa-solid fa-award"></i> Score: 73%</div>
+              </div>
+            </div>
+
+            <div class="edu-card" style="margin-top: 15px;">
+              <div class="edu-icon"><i class="fa-solid fa-school"></i></div>
+              <div class="edu-details">
+                <span class="edu-date">2020</span>
+                <h4>Class X (Secondary Education)</h4>
+                <p class="edu-institution">Govt. B.H.S. School, Bhourasa (Dewas)</p>
+                <div class="edu-badge"><i class="fa-solid fa-award"></i> Score: 88%</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="edu-col" data-aos="fade-left">
+            <h3 class="edu-heading"><i class="fa-solid fa-code"></i> Problem Solving & Technical Aptitude</h3>
+            
+            <div class="cert-list">
+              <div class="cert-card">
+                <div class="cert-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                <div class="cert-info">
+                  <h4>LeetCode Problem Solving</h4>
+                  <p>Solved 100+ LeetCode problems in Java focusing on Data Structures, Algorithms, Collections Framework, and Time Complexity optimization.</p>
+                </div>
+                <span class="cert-year">100+ Solved</span>
+              </div>
+
+              <div class="cert-card">
+                <div class="cert-icon"><i class="fa-solid fa-layer-group"></i></div>
+                <div class="cert-info">
+                  <h4>Object-Oriented Design & Clean Code</h4>
+                  <p>Hands-on practice implementing clean Controller–Service–Repository layered design, SOLID principles, and REST API conventions.</p>
+                </div>
+                <span class="cert-year">Core Focus</span>
+              </div>
+
+              <div class="cert-card">
+                <div class="cert-icon"><i class="fa-solid fa-database"></i></div>
+                <div class="cert-info">
+                  <h4>Database Normalization & SQL Optimization</h4>
+                  <p>Designing relational database schemas up to Third Normal Form (3NF), writing efficient SQL queries, and ORM mapping via Hibernate JPA.</p>
+                </div>
+                <span class="cert-year">Practical</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 8: CONTACT ME SECTION -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="section-header text-center" data-aos="fade-up">
+          <span class="section-subtitle">LET'S CONNECT</span>
+          <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+          <p class="section-desc">Actively seeking Java Backend Developer opportunities. Reach out via email, phone, or LinkedIn.</p>
+          <div class="section-bar"></div>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info-col" data-aos="fade-right">
+            <div class="contact-card">
+              <h3>Let me bring value to your backend team</h3>
+              <p>I am looking for full-time entry-level / junior Java Backend Developer roles. Ready to contribute with Java 17, Spring Boot, Spring Security, REST APIs, and MySQL/PostgreSQL expertise.</p>
+
+              <div class="contact-methods">
+                <div class="contact-item">
+                  <div class="item-icon"><i class="fa-solid fa-envelope"></i></div>
+                  <div class="item-text">
+                    <span class="label">Email Address</span>
+                    <a href="mailto:nitinchoudhary7415@gmail.com" class="val">nitinchoudhary7415@gmail.com</a>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <div class="item-icon"><i class="fa-solid fa-phone"></i></div>
+                  <div class="item-text">
+                    <span class="label">Phone Number</span>
+                    <a href="tel:7415416193" class="val">+91 7415416193</a>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <div class="item-icon"><i class="fa-solid fa-location-dot"></i></div>
+                  <div class="item-text">
+                    <span class="label">Location</span>
+                    <span class="val">Indore, Madhya Pradesh, India</span>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <div class="item-icon"><i class="fa-solid fa-briefcase"></i></div>
+                  <div class="item-text">
+                    <span class="label">Experience</span>
+                    <span class="val">Java Developer Intern (Dollop Infotech, Indore | Mar 2026 – Present)</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="social-connect">
+                <span class="connect-title">Connect & Direct Message:</span>
+                <div class="social-buttons">
+                  <a href="https://wa.me/917415416193?text=Hi%20Nitin,%20I%20saw%20your%20portfolio%20and%20want%20to%20discuss%20a%20Java%20Backend%20Developer%20opportunity." target="_blank" rel="noopener" class="btn btn-primary-sm" style="background: #25D366; border-color: #25D366; color: #fff;">
+                    <i class="fa-brands fa-whatsapp"></i> WhatsApp Direct
+                  </a>
+                  <a href="https://linkedin.com/in/nitin-c-80a97a249" target="_blank" rel="noopener" class="btn btn-outline-sm">
+                    <i class="fa-brands fa-linkedin"></i> LinkedIn
+                  </a>
+                  <a href="https://github.com/nitinchoudhary-11" target="_blank" rel="noopener" class="btn btn-outline-sm">
+                    <i class="fa-brands fa-github"></i> GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-col" data-aos="fade-left">
+            <form class="contact-form" id="contactForm">
+              <div class="form-group">
+                <label for="name">Your Name / Recruiter Name <span class="req">*</span></label>
+                <div class="input-wrapper">
+                  <i class="fa-solid fa-user input-icon"></i>
+                  <input type="text" id="name" required placeholder="e.g. Hiring Manager">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="email">Work Email <span class="req">*</span></label>
+                <div class="input-wrapper">
+                  <i class="fa-solid fa-envelope input-icon"></i>
+                  <input type="email" id="email" required placeholder="e.g. recruiter@company.com">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="subject">Subject / Inquiry Type</label>
+                <div class="input-wrapper">
+                  <i class="fa-solid fa-tag input-icon"></i>
+                  <select id="subject">
+                    <option value="Java Developer Job Opportunity">Full-Time Java Developer Role</option>
+                    <option value="Technical Interview">Interview Request</option>
+                    <option value="General Message">General Inquiry</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message Details <span class="req">*</span></label>
+                <div class="input-wrapper text-area-wrapper">
+                  <i class="fa-solid fa-comment-dots input-icon"></i>
+                  <textarea id="message" rows="5" required placeholder="Describe the job opportunity or interview details..."></textarea>
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block" id="submitFormBtn">
+                <i class="fa-solid fa-paper-plane"></i> Send Direct Inquiry to Nitin
+              </button>
+
+              <div class="form-feedback hidden" id="formFeedback"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <a href="#hero" class="footer-logo">Nitin Choudhary</a>
+        <p>Software Engineer | Java Backend Developer. Building clean REST APIs & Spring Boot applications.</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-right">
+        <p>© 2026 Nitin Choudhary. All rights reserved.</p>
+        <p class="stack-note">Indore, Madhya Pradesh | Phone: 7415416193</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- RECRUITER SNAPSHOT MODAL -->
+  <div class="modal-overlay hidden" id="recruiterModal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div class="modal-title">
+          <i class="fa-solid fa-id-card"></i> Recruiter 1-Page Summary
+        </div>
+        <button class="modal-close" id="closeRecruiterModal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="recruiter-profile-header">
+          <div class="r-avatar"><img src="assets/profile.jpg" alt="Nitin Choudhary"></div>
+          <div class="r-details">
+            <h3>Nitin Choudhary</h3>
+            <p class="r-role">Software Engineer | Java Backend Developer</p>
+            <p class="r-loc"><i class="fa-solid fa-location-dot"></i> Indore, Madhya Pradesh • Phone: 7415416193</p>
+          </div>
+        </div>
+
+        <div class="r-section">
+          <h4><i class="fa-solid fa-star"></i> Candidate Snapshot</h4>
+          <ul class="r-list">
+            <li><strong>Core Tech:</strong> Java 17, Spring Boot, Spring Security, REST APIs, Hibernate JPA</li>
+            <li><strong>Databases:</strong> MySQL, PostgreSQL, SQL Optimization & 3NF Normalization</li>
+            <li><strong>Experience:</strong> Java Developer Intern at Dollop Infotech, Indore (Mar 2026 – Present)</li>
+            <li><strong>Education:</strong> B.Tech (IT) | Sushila Devi Bansal College of Technology, Indore (CGPA: 6.5)</li>
+            <li><strong>Problem Solving:</strong> 100+ LeetCode problems solved in Java (DSA & Time Complexity)</li>
+          </ul>
+        </div>
+
+        <div class="r-section-grid">
+          <div class="r-box">
+            <span class="r-box-title">Availability</span>
+            <span class="r-box-desc">Immediate / Open for Roles</span>
+          </div>
+          <div class="r-box">
+            <span class="r-box-title">Preferred Work Type</span>
+            <span class="r-box-desc">Full-Time (Onsite / Remote / Hybrid)</span>
+          </div>
+        </div>
+
+        <div class="modal-footer-actions">
+          <button class="btn btn-primary" id="modalDownloadResumeBtn">
+            <i class="fa-solid fa-download"></i> Download Resume (PDF)
+          </button>
+          <a href="mailto:nitinchoudhary7415@gmail.com" class="btn btn-glass">
+            <i class="fa-solid fa-envelope"></i> Email Directly
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PROJECT DETAIL MODAL -->
+  <div class="modal-overlay hidden" id="projectModal">
+    <div class="modal-card project-modal-card">
+      <div class="modal-header">
+        <div class="modal-title" id="projModalTitle">Project Details</div>
+        <button class="modal-close" id="closeProjectModal">&times;</button>
+      </div>
+      <div class="modal-body" id="projModalBody">
+        <!-- Filled dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript Files -->
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
